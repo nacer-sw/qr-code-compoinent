@@ -16,16 +16,41 @@
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
-      .qr {
+      body {
         font-family: url("https://fonts.google.com/specimen/Outfit");
-        font-weight: 400;
-        background-position-x: center;
-        background-position-y: center;
+        background-color: hsl(212, 45%, 89%);
+        padding: 10%;
+        background-attachment: fixed;
       }
-      .qr p {
-        color: black;
+      .qr {
+        background-color: white;
+        border-radius: 5%;
+        /* padding-top: 10px;
+        padding-bottom: 20px; */
+        width: 250px;
+        height: 375px;
+        text-align: center;
+        margin: auto;
+        margin-top: -7%;
+        background-attachment: fixed;
       }
-
+      .qr img {
+        margin: 4% 4%;
+        border-radius: 5%;
+        width: 90%;
+      }
+      .prompt {
+        display: inline-block;
+        font-size: 15px;
+        font-weight: bolder;
+        margin-top: -0.5%;
+        padding-top: 2%;
+      }
+      .qr_prompt {
+        font-size: 11px;
+        color: grey;
+        margin-top: -2%;
+      }
       .attribution {
         font-size: 11px;
         text-align: center;
@@ -37,10 +62,15 @@
   </head>
   <body>
     <div class="qr">
-      <p>Improve your front-end skills by building projects</p>
-      <p>
-        the QR code to visit Frontend Mentor and take your coding skills to the
-        next level
+      <img src="images/image-qr-code.png" alt="qr code picture" width="200px" />
+
+      <p class="prompt">
+        Improve your front-end <br />skills by building projects
+      </p>
+      <p class="qr_prompt">
+        scan the QR code to visit Frontend <br />Mentor and take your coding
+        skills to<br />
+        the next level
       </p>
     </div>
     <div class="attribution">
