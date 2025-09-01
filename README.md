@@ -23,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://nacer-sw.github.io/qr-code-compoinent/)
+- Solution URL: [solution URL here](https://nacer-sw.github.io/qr-code-compoinent/)
 
 ## My process
 
@@ -42,4 +42,4 @@ i need to learn more how to deal with fonts and element spacing
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/nacer-sw)
+- Frontend Mentor - [@nacer-sw](https://www.frontendmentor.io/profile/nacer-sw)
